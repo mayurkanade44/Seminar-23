@@ -836,6 +836,7 @@ ul li {
 
 .speaker-img {
   width: 350px;
+  height: 350px;
   object-fit: cover;
 }
 
@@ -847,7 +848,7 @@ ul li {
 
 @media (max-width: 768px) {
   #speakers .speaker .details-principle {
-    background: rgba(15, 25, 61, 0.76);
+    background: rgba(6, 12, 34, 0.76);
     position: absolute;
     left: 0;
     bottom: 0px;
