@@ -257,7 +257,7 @@ ul li {
     color: #313131;
     letter-spacing: 1px;
     margin: 0 0 60px;
-    text-transform: uppercase;
+    text-transform: none !important;
     text-align: left;
   }
 }
@@ -797,7 +797,9 @@ ul li {
 
 #schedule .schedule-item time {
   padding-bottom: 5px;
+  text-align: center !important;
   display: inline-block;
+  font-weight: 600;
 }
 
 #schedule .schedule-item .speaker {
